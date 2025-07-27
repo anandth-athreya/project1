@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Street Bites</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-texture"></div>
+
+  <header>
+    <div class="container">
+      <div class="logo-section">
+        <img src="https://img.icons8.com/color/48/street-food.png" alt="Street Bites Logo" class="logo">
+        <h1>Street Bites</h1>
+      </div>
+      <nav>
+        <a href="#vendors"><span class="material-icons">explore</span> Explore</a>
+        <input type="text" id="search" placeholder="Search vendors..." />
+      </nav>
+    </div>
+  </header>
+
+  <section class="role-selector">
+    <label for="role">You are a:</label>
+    <select id="role">
+      <option value="">Select</option>
+      <option value="buyer">Buyer</option>
+      <option value="seller">Seller</option>
+    </select>
+    <div id="form-container"></div>
+  </section>
+
+  <main class="content">
+    <section id="vendors" class="grid">
+      <!-- Vendor cards will be injected here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Street Bites — Crafted for food lovers</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
